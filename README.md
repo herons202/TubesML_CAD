@@ -75,15 +75,3 @@ Projek ini membutuhkan Python 3.x dan beberapa library pendukung. Anda dapat men
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn xlrd python-pptx
 ```
-
-## Cara Menjalankan Projek
-
-1. **Menjalankan Analisis:**
-   Buka Jupyter Notebook atau JupyterLab, lalu jalankan file `CAD_Analysis.ipynb` untuk melihat seluruh visualisasi dan alur kode dari preprocessing hingga evaluasi model.
-
-2. **Membuat Slide Presentasi:**
-   Jalankan script Python berikut untuk memperbarui atau menghasilkan file presentasi PowerPoint secara otomatis berdasarkan isi `slide_presentasi.md`:
-
-   ```bash
-   python generate_pptx.py
-   ```
